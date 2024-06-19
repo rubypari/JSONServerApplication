@@ -2,7 +2,7 @@
     "users": [{
         "name": "admin",
         "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
-        "email": "admin@gmail.com",
+        "email": "admin1@gmail.com",
         "isAdmin": true
     }],
     "products": [ {
@@ -21,27 +21,6 @@
     },
     {
         "id": 3,
-        "name": "Sushi Platter",
-        "price": "15",
-        "image": "images/sushi.jpg",
-        "description": "Assorted sushi rolls with fresh fish and vegetables."
-    },
-    {
-        "id": 4,
-        "name": "Chowmin",
-        "price": "75",
-        "image": "images/sushi.jpg",
-        "description": "Assorted sushi rolls with fresh fish and vegetables."
-    },
-    {
-        "id": 5,
-        "name": "Cheeseburger",
-        "price": "8",
-        "image": "images/cheeseburger.jpg",
-        "description": "Juicy beef burger with cheddar cheese, lettuce, and tomato."
-    },
-    {
-        "id": 6,
         "name": "Sushi Platter",
         "price": "15",
         "image": "images/sushi.jpg",
