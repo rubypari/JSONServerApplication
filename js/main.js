@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }*/
 
     // Sample food items data
-    fetch('http://localhost:3000/products')
+    fetch('https://my-json-server.typicode.com/rubypari/JSONServerApplication/products')
     .then(response => response.json())
     .then(data => {
       const foodItems = data;

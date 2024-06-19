@@ -10,7 +10,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // Retrieve user data from local storage
     //const users = JSON.parse(localStorage.getItem('users')) || [];
 
-    fetch('http://localhost:3000/users')
+    fetch('https://my-json-server.typicode.com/rubypari/JSONServerApplication/users')
     .then(response => response.json())
     .then(data => {
         const user = data.find(u => u.email === email && u.password === hashedPassword);
